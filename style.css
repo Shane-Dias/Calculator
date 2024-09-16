@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    /* background-color: black; */
+    background: linear-gradient(135deg, #00ff99, #9966ff);
+    /* background: linear-gradient(135deg, #e0b3ff, #b3ffcc); */
+    /* background: linear-gradient(135deg, #ffcc99, #b3b300); */
+    /* background-image: url("https://media.istockphoto.com/id/1212911887/photo/futuristic-digital-block-chain-background.jpg?s=2048x2048&w=is&k=20&c=7MZQz3oUsGPwshMkFHavLCbgH9kTjDTlz-hdAWUtCxs=");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 2rem;
+    width: 3rem;
+    margin: auto;
+    margin-top: 50px;
+    height: 30rem;
+    width: 22rem;
+    border-radius: 23px;
+    /* background-color: black; */
+    background: linear-gradient(45deg, #1b00ff87, #ff00009e);
+    box-shadow: 0px 0px 20px 4px white;
+    z-index: 1;
+}
+.display{
+    height: 6rem;
+    width: 20rem;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset -2px -2px 8px 0px white, inset 2px 2px 8px 1px white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 40px;
+    overflow: hidden;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 19rem;
+    width: 20rem;
+    margin-left: 26px;
+    margin-bottom: 27px;
+}
+.buttons button{
+    width: 58px;
+    height: 55px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: white;
+    /* margin: 2px; */
+    border-radius: 80px;
+    border: none;
+    background-color: orangered;
+    transition: all 0.3s;
+    
+}
+.buttons button:hover,#calculate:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+.buttons button:active,#calculate:active{
+    transform:scale(0.96);
+    box-shadow: 0px 0px 20px 6px #0000004a;
+}
+.buttons .green{
+    background-color: lawngreen;
+}
+.buttons .operator{
+    background-color: rgb(255, 0, 76);
+}
