@@ -1,14 +1,16 @@
 body{
-    height: 100vh;
+    height: 74vh;
     /* background-color: black; */
     background: linear-gradient(135deg, #00ff99, #9966ff);
     /* background: linear-gradient(135deg, #e0b3ff, #b3ffcc); */
     /* background: linear-gradient(135deg, #ffcc99, #b3b300); */
     /* background-image: url("https://media.istockphoto.com/id/1212911887/photo/futuristic-digital-block-chain-background.jpg?s=2048x2048&w=is&k=20&c=7MZQz3oUsGPwshMkFHavLCbgH9kTjDTlz-hdAWUtCxs=");
     background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover; */
+    background-repeat: no-repeat;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 .container{
     display: flex;
