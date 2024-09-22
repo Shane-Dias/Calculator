@@ -1,2 +1,2 @@
 Calculator using HTML, CSS and Javascript
-url:https://main--my87calculator.netlify.ap
+https://main--my87calculator.netlify.app/
